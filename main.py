@@ -10,6 +10,12 @@ def multiplyList(list):
         prod *= item
     return prod
 
+def reverseList(list):
+    reversedList = list.copy()
+    for i in range(len(list)):
+        reversedList[i] = list[len(list) - i - 1]
+    return reversedList
+
 if __name__ == "__main__":
 
     while True:
