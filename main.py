@@ -31,3 +31,4 @@ if __name__ == "__main__":
     # Print sum and products of user input
     print(f"The sum of all integers in the list is: {addList(list)}")
     print(f"The product of all integers in the list is: {multiplyList(list)}")
+    print(f"The list of elements reversed is: {reverseList(list)}")
